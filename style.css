@@ -1,0 +1,73 @@
+body {
+    background: #ff2600;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    background: none;
+  }
+  
+  .bacon {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 75px;
+    height: 260px;
+    background: #332513;
+  }
+  .toast {
+    position: absolute;
+    background: #efcb68;
+    height: 70px;
+    width: 260px;
+    right: -10%;
+    top: 25%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+  }
+  .toast2 {
+    position: absolute;
+    background: #efcb68;
+      height: 230px;
+    width: 210px;
+    right: -5%;
+    top:32%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 2;
+      
+    
+  }
+  .eggwhite {
+    position: absolute;
+    background: white;
+    height: 80%;
+    width: 32%;
+    top: 27%;
+    left: 6%;
+    border-radius: 50%;
+    z-index: 1;
+    }
+  .eggyolk {
+    position: absolute;
+    background: #ff9400;
+    height: 30%;
+    width: 15%;
+    top: 36%;
+    left: 14%;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
